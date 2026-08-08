@@ -65,7 +65,7 @@ try:
             
             if fortigate_object_exists(object_name, existing_objects):
                 print(f"Line {line_number}: SKIPPED - {object_name} already exists")
-                skipped_count += 1
+                skipped_count +=1
                 continue
 
             payload = build_fortigate_address_payload(
