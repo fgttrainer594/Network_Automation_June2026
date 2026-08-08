@@ -77,14 +77,13 @@ def paloalto_object_exists(object_name, existing_objects):
 
     return False
 
-def build_paloalto_address_payload(object_name, ip_netmask, description):
+def build_paloalto_address_payload(object_name, ip_netmask):
     payload = {
         "entry": [
             {
                 "@location": "vsys",
                 "@vsys": "vsys1",
                 "@name": object_name,
-                "description": description,
                 "ip-netmask": ip_netmask
             }
         ]

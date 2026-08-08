@@ -63,7 +63,6 @@ try:
 
             object_name = row["object_name"].strip()
             ip_netmask = row["ip_netmask"].strip()
-            description = row["description"].strip()
 
 
             is_valid, validation_message = validate_object_row(
@@ -96,8 +95,7 @@ try:
 
             payload = build_paloalto_address_payload(
                 object_name,
-                ip_netmask,
-                description,
+                ip_netmask
             )
 
 
