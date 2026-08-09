@@ -1,0 +1,2 @@
+line_number,group_name,members,member_count,description,vendor,action,status,message
+N/A,,,0,,FortiGate,CRITICAL,ERROR,Missing required coloumn in CSV:member_name
