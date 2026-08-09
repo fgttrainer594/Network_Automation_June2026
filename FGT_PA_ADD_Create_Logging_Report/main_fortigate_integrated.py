@@ -306,8 +306,7 @@ try:
 
             payload = build_fortigate_address_payload(
                 object_name,
-                ip_netmask,
-                description,
+                ip_netmask
             )
 
 
