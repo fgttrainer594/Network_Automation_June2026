@@ -1,10 +1,24 @@
-object_name,ip_netmask
-LAN_Dev,172.16.1.0/24
-LAN_QA,172.17.1.0/24
-LAN_SRV,192.16.1.0/24
-,11.1.1.0/24
-SHared_Asset,172.23.44.256/32
-LAB_LAN,192.168.1.0/24
-LAB_LAN2,192.168.1.10/24
-LAB_LAN3,192.168.3.0/24
-LAB_LAN4,192.168.4.0/24
+object_name,ip_netmask,description
+LAN_Dev,172.16.1.0/24,Network used by Developer
+LAN_QA,172.17.1.0/24,Network used by QA Engg
+LAN_SRV,192.16.1.0/24, Server hosted LAN
+,11.1.1.0/24,Cloud public Ip for the DEv-app
+SHared_Asset,172.23.44.256/32,Common shared printer
+LAB_LAN,192.168.1.0/24, Lab user LAN network
+LAB_LAN2,192.168.1.10/24,Lab user LAN network
+LAB_LAN3,192.168.3.0/24,Lab user LAN network
+LAB_LAN4,192.168.4.0/24,Lab user LAN network
+PA-APP01,10.10.10.10/32,Integrated workflow app server 
+PA-APP02,10.10.20.10/32,Integrated workflow database server 
+PA-DB01,10.10.30.10/32,Missing object name 
+PA-WEB01,10.10.99.999/32,Invalid IP row 
+PA-WEB02,10.10.40.0/24,Integrated workflow web subnet 
+PA-BACKUP01,10.10.50.10/32,Integrated workflow backup server
+PA-BACKUP02,10.10.60.10/32,Integrated workflow backup server
+APP01,20.10.10.10/32,Integrated workflow app server 
+APP02,20.10.20.10/32,Integrated workflow database server 
+DB01,20.10.30.10/32,Missing object name 
+WEB01,20.10.99.999/32,Invalid IP row 
+WEB02,20.10.40.0/24,Integrated workflow web subnet 
+BACKUP01,20.10.50.10/32,Integrated workflow backup server
+BACKUP02,20.10.60.10/32,Integrated workflow backup server
