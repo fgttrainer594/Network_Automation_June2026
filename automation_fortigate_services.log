@@ -1,0 +1,90 @@
+2026-08-16 18:19:03,542 - INFO - Starting FortiGate service automation workflow
+2026-08-16 18:19:03,550 - INFO - Service CSV file: service_objects.csv
+2026-08-16 18:19:03,551 - INFO - Service group CSV file: service_groups.csv
+2026-08-16 18:19:03,553 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:03,606 - INFO - FortiGate service objects loaded successfully
+2026-08-16 18:19:03,607 - INFO - Existing service objects loaded: 87
+2026-08-16 18:19:03,608 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:03,618 - INFO - Service CSV headers are valid
+2026-08-16 18:19:03,622 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:03,757 - INFO - Line 2: CREATED - service object SVC-HTTP
+2026-08-16 18:19:03,836 - INFO - Line 3: CREATED - service object SVC-HTTPS
+2026-08-16 18:19:03,997 - INFO - Line 4: CREATED - service object SVC-SSH
+2026-08-16 18:19:04,110 - INFO - Line 5: CREATED - service object SVC-DNS-UDP
+2026-08-16 18:19:04,170 - INFO - Line 6: CREATED - service object SVC-NTP
+2026-08-16 18:19:04,202 - INFO - Line 7: CREATED - service object SVC-APP-RANGE
+2026-08-16 18:19:04,260 - INFO - Line 8: CREATED - service object PA-SVC-HTTP
+2026-08-16 18:19:04,323 - INFO - Line 9: CREATED - service object PA-SVC-HTTPS
+2026-08-16 18:19:04,375 - INFO - Line 10: CREATED - service object PA-SVC-SSH
+2026-08-16 18:19:04,428 - INFO - Line 11: CREATED - service object PA-SVC-DNS-UDP
+2026-08-16 18:19:04,474 - INFO - Line 12: CREATED - service object PA-SVC-NTP
+2026-08-16 18:19:04,509 - INFO - Line 13: CREATED - service object PA-SVC-APP-RANGE
+2026-08-16 18:19:04,511 - INFO - Report created: automation_report_fortigate_services.csv
+2026-08-16 18:19:04,512 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,512 - INFO - Service object phase completed
+2026-08-16 18:19:04,512 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,544 - INFO - FortiGate service groups loaded successfully
+2026-08-16 18:19:04,544 - INFO - Existing service groups loaded: 4
+2026-08-16 18:19:04,544 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,545 - INFO - Service group CSV headers are valid
+2026-08-16 18:19:04,545 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,546 - INFO - Line 2: ADDED - SVC-HTTP to GRP-WEB-SERVICES
+2026-08-16 18:19:04,546 - INFO - Line 3: ADDED - SVC-HTTPS to GRP-WEB-SERVICES
+2026-08-16 18:19:04,546 - INFO - Line 4: ADDED - SVC-SSH to GRP-MGMT-SERVICES
+2026-08-16 18:19:04,546 - INFO - Line 5: ADDED - SVC-DNS-UDP to GRP-INFRA-SERVICES
+2026-08-16 18:19:04,547 - INFO - Line 6: ADDED - SVC-NTP to GRP-INFRA-SERVICES
+2026-08-16 18:19:04,547 - INFO - Line 7: ADDED - SVC-APP-RANGE to GRP-APP-SERVICES
+2026-08-16 18:19:04,547 - INFO - Line 8: ADDED - PA-SVC-HTTP to PA-GRP-WEB-SERVICES
+2026-08-16 18:19:04,547 - INFO - Line 9: ADDED - PA-SVC-HTTPS to PA-GRP-WEB-SERVICES
+2026-08-16 18:19:04,547 - INFO - Line 10: ADDED - PA-SVC-SSH to PA-GRP-MGMT-SERVICES
+2026-08-16 18:19:04,548 - INFO - Line 11: ADDED - PA-SVC-DNS-UDP to PA-GRP-INFRA-SERVICES
+2026-08-16 18:19:04,548 - INFO - Line 12: ADDED - PA-SVC-NTP to PA-GRP-INFRA-SERVICES
+2026-08-16 18:19:04,548 - INFO - Line 13: ADDED - PA-SVC-APP-RANGE to PA-GRP-APP-SERVICES
+2026-08-16 18:19:04,548 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,548 - INFO - Service groups prepared from CSV: 8
+2026-08-16 18:19:04,548 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,549 - INFO - Processing service group: GRP-WEB-SERVICES
+2026-08-16 18:19:04,591 - INFO - CREATED - service group created and verified: GRP-WEB-SERVICES
+2026-08-16 18:19:04,592 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,592 - INFO - Processing service group: GRP-MGMT-SERVICES
+2026-08-16 18:19:04,637 - INFO - CREATED - service group created and verified: GRP-MGMT-SERVICES
+2026-08-16 18:19:04,638 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,638 - INFO - Processing service group: GRP-INFRA-SERVICES
+2026-08-16 18:19:04,684 - INFO - CREATED - service group created and verified: GRP-INFRA-SERVICES
+2026-08-16 18:19:04,684 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,684 - INFO - Processing service group: GRP-APP-SERVICES
+2026-08-16 18:19:04,737 - INFO - CREATED - service group created and verified: GRP-APP-SERVICES
+2026-08-16 18:19:04,739 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,739 - INFO - Processing service group: PA-GRP-WEB-SERVICES
+2026-08-16 18:19:04,763 - INFO - CREATED - service group created and verified: PA-GRP-WEB-SERVICES
+2026-08-16 18:19:04,763 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,763 - INFO - Processing service group: PA-GRP-MGMT-SERVICES
+2026-08-16 18:19:04,799 - INFO - CREATED - service group created and verified: PA-GRP-MGMT-SERVICES
+2026-08-16 18:19:04,800 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,800 - INFO - Processing service group: PA-GRP-INFRA-SERVICES
+2026-08-16 18:19:04,840 - INFO - CREATED - service group created and verified: PA-GRP-INFRA-SERVICES
+2026-08-16 18:19:04,841 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,841 - INFO - Processing service group: PA-GRP-APP-SERVICES
+2026-08-16 18:19:04,987 - INFO - CREATED - service group created and verified: PA-GRP-APP-SERVICES
+2026-08-16 18:19:04,988 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:04,993 - INFO - Report created: automation_report_fortigate_service_groups.csv
+2026-08-16 18:19:04,998 - INFO - 
+2026-08-16 18:19:05,000 - INFO - Final FortiGate Service Automation Summary
+2026-08-16 18:19:05,001 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:05,001 - INFO - Services created: 12
+2026-08-16 18:19:05,002 - INFO - Services skipped: 0
+2026-08-16 18:19:05,002 - INFO - Services failed: 0
+2026-08-16 18:19:05,002 - INFO - Invalid service rows: 0
+2026-08-16 18:19:05,002 - INFO - Duplicate service rows skipped: 0
+2026-08-16 18:19:05,003 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:05,003 - INFO - Service groups created: 8
+2026-08-16 18:19:05,003 - INFO - Service groups skipped: 0
+2026-08-16 18:19:05,004 - INFO - Service groups failed: 0
+2026-08-16 18:19:05,008 - INFO - Invalid service group rows: 0
+2026-08-16 18:19:05,008 - INFO - Duplicate group members skipped: 0
+2026-08-16 18:19:05,009 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:05,009 - INFO - Log file: automation_fortigate_services.log
+2026-08-16 18:19:05,015 - INFO - Service report file: automation_report_fortigate_services.csv
+2026-08-16 18:19:05,016 - INFO - Service group report file: automation_report_fortigate_service_groups.csv
+2026-08-16 18:19:05,016 - INFO - ------------------------------------------------------------
+2026-08-16 18:19:05,016 - INFO - FortiGate service automation workflow completed

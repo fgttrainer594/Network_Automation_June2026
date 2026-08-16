@@ -22,3 +22,4 @@ WEB01,20.10.99.999/32,Invalid IP row
 WEB02,20.10.40.0/24,Integrated workflow web subnet 
 BACKUP01,20.10.50.10/32,Integrated workflow backup server
 BACKUP02,20.10.60.10/32,Integrated workflow backup server
+DNS-SERVERS, 1.1.1.1/32,Global DNS 1.1.1.1

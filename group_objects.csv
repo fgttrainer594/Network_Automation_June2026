@@ -1,8 +1,0 @@
-group_name,member_name,description
-GRP-APP-SERVER,APP01,App server group
-GRP-APP-SERVER,APP02,App server group
-GRP-APP-SERVER,DB01,App server group
-GRP-WEB-SERVER,WEB01,Web server group
-GRP-WEB-SERVER,WEB02,Web server group
-GRP-BACKUP-SERVER,BACKUP01,Backup server group
-GRP-BACKUP-SERVER,BACKUP02,Backup server group

@@ -1,0 +1,5 @@
+vip_name,policy_name,external_interface,source_interface,destination_interface,source_address,external_ip,mapped_ip,protocol,external_port,mapped_port,policy_service,log_traffic,position_type,anchor_rule,description
+VIP-WEB-HTTPS,FGT-DNAT-WEB-HTTPS,port1,port1,port3,all,203.0.113.20,10.10.20.10,tcp,443,443,HTTPS,yes,bottom,,Publish internal web server HTTPS
+VIP-APP-8443,FGT-DNAT-APP-8443,port1,port1,port3,all,203.0.113.21,10.10.20.20,tcp,8443,443,SVC-APP-8443,yes,bottom,,Port forward public 8443 to internal app 443
+PA-DNAT-WEB-HTTPS,untrust,untrust,any,203.0.113.20,PA-SVC-HTTPS,10.10.20.10,443,yes,bottom,,DNAT public HTTPS to internal web server
+PA-DNAT-APP-8443,untrust,untrust,any,203.0.113.21,PA-SVC-APP-8443,10.10.20.20,443,yes,bottom,,DNAT public 8443 service to internal app HTTPS

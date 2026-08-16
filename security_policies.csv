@@ -1,0 +1,7 @@
+policy_name,source_zone,destination_zone,source_address,destination_address,service,application,action,log_traffic,position_type,anchor_rule,description
+FGT-ALLOW-LAN-APP-HTTPS,port2,port3,GRP-BACKUP-SERVERS,GRP-APP-SERVERS,SVC-HTTPS,any,allow,yes,bottom,,Allow LAN users to app servers using HTTPS
+FGT-ALLOW-LAN-DNS,port2,port3,GRP-BACKUP-SERVERS,DNS-SERVERS,SVC-DNS-UDP,any,allow,yes,bottom,,Allow LAN users to DNS servers
+FGT-DENY-LAN-APP-SSH,port2,port3,GRP-BACKUP-SERVERS,GRP-APP-SERVERS,SVC-SSH,any,deny,yes,bottom,,Deny SSH from LAN users to app servers
+PA-ALLOW-TRUST-DMZ-HTTPS,trust,dmz,GRP-USERS,PA-GRP-APP-SERVERS,PA-SVC-HTTPS,any,allow,yes,bottom,,Allow trust users to DMZ app servers using HTTPS
+PA-ALLOW-TRUST-DMZ-DNS,trust,dmz,GRP-USERS,DNS-SERVERS,PA-SVC-DNS-UDP,any,allow,yes,bottom,,Allow trust users to DNS servers
+PA-DENY-TRUST-DMZ-SSH,trust,dmz,GRP-USERS,PA-GRP-APP-SERVERS,PA-SVC-SSH,any,deny,yes,bottom,,Deny SSH from trust users to app servers

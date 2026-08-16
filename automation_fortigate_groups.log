@@ -1,0 +1,41 @@
+2026-08-16 18:13:58,501 - INFO - Starting FortiGate address group automation
+2026-08-16 18:13:58,501 - INFO - Input CSV file: address_groups.csv
+2026-08-16 18:13:58,505 - INFO - Report file: automation_report_fortigate_groups.csv
+2026-08-16 18:13:58,507 - INFO - ------------------------------------------------------------
+2026-08-16 18:13:58,519 - INFO - FortiGate address objects loaded successfully
+2026-08-16 18:13:58,519 - INFO - Existing address objects loaded: 30
+2026-08-16 18:13:58,520 - INFO - ------------------------------------------------------------
+2026-08-16 18:13:58,531 - INFO - FortiGate address groups loaded successfully
+2026-08-16 18:13:58,531 - INFO - Existing address groups loaded: 4
+2026-08-16 18:13:58,532 - INFO - ------------------------------------------------------------
+2026-08-16 18:13:58,533 - INFO - CSV headers are valid
+2026-08-16 18:13:58,533 - INFO - ------------------------------------------------------------
+2026-08-16 18:13:58,533 - INFO - Line 2: ADDED - APP01 to GRP-APP-SERVERS
+2026-08-16 18:13:58,533 - INFO - Line 3: ADDED - APP02 to GRP-APP-SERVERS
+2026-08-16 18:13:58,533 - INFO - Line 4: ADDED - DB01 to GRP-APP-SERVERS
+2026-08-16 18:13:58,534 - INFO - Line 5: ADDED - WEB01 to GRP-WEB-SERVERS
+2026-08-16 18:13:58,535 - INFO - Line 6: ADDED - WEB02 to GRP-WEB-SERVERS
+2026-08-16 18:13:58,538 - INFO - Line 7: ADDED - BACKUP01 to GRP-BACKUP-SERVERS
+2026-08-16 18:13:58,539 - INFO - Line 8: ADDED - BACKUP02 to GRP-BACKUP-SERVERS
+2026-08-16 18:13:58,539 - INFO - ------------------------------------------------------------
+2026-08-16 18:13:58,541 - INFO - Groups prepared from CSV: 3
+2026-08-16 18:13:58,541 - INFO - ------------------------------------------------------------
+2026-08-16 18:13:58,541 - INFO - Processing group: GRP-APP-SERVERS
+2026-08-16 18:13:58,542 - WARNING - SKIPPED - Address group already exists: GRP-APP-SERVERS
+2026-08-16 18:13:58,542 - INFO - Processing group: GRP-WEB-SERVERS
+2026-08-16 18:13:58,542 - ERROR - FAILED - GRP-WEB-SERVERS. Missing member objects: WEB01
+2026-08-16 18:13:58,548 - INFO - Processing group: GRP-BACKUP-SERVERS
+2026-08-16 18:13:58,548 - WARNING - SKIPPED - Address group already exists: GRP-BACKUP-SERVERS
+2026-08-16 18:13:58,549 - INFO - Report created: automation_report_fortigate_groups.csv
+2026-08-16 18:13:58,550 - INFO - 
+2026-08-16 18:13:58,550 - INFO - Final FortiGate Address Group Summary
+2026-08-16 18:13:58,550 - INFO - ------------------------------------------------------------
+2026-08-16 18:13:58,550 - INFO - Groups created: 0
+2026-08-16 18:13:58,550 - INFO - Groups skipped: 2
+2026-08-16 18:13:58,550 - INFO - Groups failed: 1
+2026-08-16 18:13:58,551 - INFO - Invalid rows: 0
+2026-08-16 18:13:58,551 - INFO - Duplicate members skipped: 0
+2026-08-16 18:13:58,551 - INFO - Log file: automation_fortigate_groups.log
+2026-08-16 18:13:58,551 - INFO - Report file: automation_report_fortigate_groups.csv
+2026-08-16 18:13:58,552 - INFO - ------------------------------------------------------------
+2026-08-16 18:13:58,552 - INFO - FortiGate address group automation completed

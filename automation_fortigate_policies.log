@@ -1,0 +1,43 @@
+2026-08-16 18:25:21,478 - INFO - Starting FortiGate firewall policy automation workflow
+2026-08-16 18:25:21,484 - INFO - Policy CSV file: security_policies.csv
+2026-08-16 18:25:21,498 - INFO - Report file: automation_report_fortigate_policies.csv
+2026-08-16 18:25:21,543 - INFO - ------------------------------------------------------------
+2026-08-16 18:25:21,614 - INFO - FortiGate interfaces loaded successfully
+2026-08-16 18:25:21,619 - INFO - Interfaces/zones loaded: 6
+2026-08-16 18:25:21,620 - INFO - ------------------------------------------------------------
+2026-08-16 18:25:21,659 - INFO - FortiGate address objects loaded successfully
+2026-08-16 18:25:21,659 - INFO - FortiGate address groups loaded successfully
+2026-08-16 18:25:21,660 - INFO - Address references loaded: 35
+2026-08-16 18:25:21,686 - INFO - ------------------------------------------------------------
+2026-08-16 18:25:21,747 - INFO - FortiGate service objects loaded successfully
+2026-08-16 18:25:21,749 - INFO - FortiGate service groups loaded successfully
+2026-08-16 18:25:21,753 - INFO - Service references loaded: 111
+2026-08-16 18:25:21,754 - INFO - ------------------------------------------------------------
+2026-08-16 18:25:21,803 - INFO - FortiGate firewall policies loaded successfully
+2026-08-16 18:25:21,803 - INFO - Existing firewall policies loaded: 3
+2026-08-16 18:25:21,808 - INFO - ------------------------------------------------------------
+2026-08-16 18:25:21,811 - INFO - Policy CSV headers are valid
+2026-08-16 18:25:21,811 - INFO - ------------------------------------------------------------
+2026-08-16 18:25:21,814 - WARNING - Line 2: SKIPPED - policy already exists: FGT-ALLOW-LAN-APP-HTTPS
+2026-08-16 18:25:21,922 - INFO - Line 3: CREATED - firewall policy FGT-ALLOW-LAN-DNS
+2026-08-16 18:25:21,923 - INFO - ------------------------------------------------------------
+2026-08-16 18:25:21,923 - WARNING - Line 4: SKIPPED - policy already exists: FGT-DENY-LAN-APP-SSH
+2026-08-16 18:25:21,924 - ERROR - Line 5: FAILED - PA-ALLOW-TRUST-DMZ-HTTPS. Missing references: source_zone/source_interface missing: trust; destination_zone/destination_interface missing: dmz; source_address missing: GRP-USERS; destination_address missing: PA-GRP-APP-SERVERS
+2026-08-16 18:25:21,924 - ERROR - Line 6: FAILED - PA-ALLOW-TRUST-DMZ-DNS. Missing references: source_zone/source_interface missing: trust; destination_zone/destination_interface missing: dmz; source_address missing: GRP-USERS
+2026-08-16 18:25:21,924 - ERROR - Line 7: FAILED - PA-DENY-TRUST-DMZ-SSH. Missing references: source_zone/source_interface missing: trust; destination_zone/destination_interface missing: dmz; source_address missing: GRP-USERS; destination_address missing: PA-GRP-APP-SERVERS
+2026-08-16 18:25:21,947 - INFO - Report created: automation_report_fortigate_policies.csv
+2026-08-16 18:25:21,947 - INFO - 
+2026-08-16 18:25:21,947 - INFO - Final FortiGate Firewall Policy Automation Summary
+2026-08-16 18:25:21,948 - INFO - ------------------------------------------------------------
+2026-08-16 18:25:21,948 - INFO - Policies created: 1
+2026-08-16 18:25:21,948 - INFO - Policies skipped: 2
+2026-08-16 18:25:21,949 - INFO - Policies failed: 3
+2026-08-16 18:25:21,949 - INFO - Invalid policy rows: 0
+2026-08-16 18:25:21,949 - INFO - Duplicate policy rows skipped: 0
+2026-08-16 18:25:21,949 - INFO - Unsupported positions skipped: 0
+2026-08-16 18:25:21,950 - INFO - Unsupported applications skipped: 0
+2026-08-16 18:25:21,950 - INFO - ------------------------------------------------------------
+2026-08-16 18:25:21,950 - INFO - Log file: automation_fortigate_policies.log
+2026-08-16 18:25:21,951 - INFO - Policy report file: automation_report_fortigate_policies.csv
+2026-08-16 18:25:21,951 - INFO - ------------------------------------------------------------
+2026-08-16 18:25:21,951 - INFO - FortiGate firewall policy automation workflow completed

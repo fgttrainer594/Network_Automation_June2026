@@ -1,0 +1,13 @@
+service_name,protocol,destination_port,description
+SVC-HTTP,tcp,80,HTTP service 
+SVC-HTTPS,tcp,443,HTTPS service 
+SVC-SSH,tcp,22,SSH service 
+SVC-DNS-UDP,udp,53,DNS UDP service 
+SVC-NTP,udp,123,NTP service 
+SVC-APP-RANGE,tcp,8000-8080,Application port range
+PA-SVC-HTTP,tcp,80,HTTP service
+PA-SVC-HTTPS,tcp,443,HTTPS service
+PA-SVC-SSH,tcp,22,SSH service
+PA-SVC-DNS-UDP,udp,53,DNS UDP service
+PA-SVC-NTP,udp,123,NTP service
+PA-SVC-APP-RANGE,tcp,8000-8080,Application port range

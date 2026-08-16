@@ -1,0 +1,9 @@
+line_numbers,group_name,members,member_count,description,vendor,action,status,message
+2;3,GRP-WEB-SERVICES,SVC-HTTP;SVC-HTTPS,2,Web services group,FortiGate,CREATED,SUCCESS,Service group created and verified successfully
+4,GRP-MGMT-SERVICES,SVC-SSH,1,Management services group,FortiGate,CREATED,SUCCESS,Service group created and verified successfully
+5;6,GRP-INFRA-SERVICES,SVC-DNS-UDP;SVC-NTP,2,Infrastructure services group,FortiGate,CREATED,SUCCESS,Service group created and verified successfully
+7,GRP-APP-SERVICES,SVC-APP-RANGE,1,Application services group,FortiGate,CREATED,SUCCESS,Service group created and verified successfully
+8;9,PA-GRP-WEB-SERVICES,PA-SVC-HTTP;PA-SVC-HTTPS,2,Web services group,FortiGate,CREATED,SUCCESS,Service group created and verified successfully
+10,PA-GRP-MGMT-SERVICES,PA-SVC-SSH,1,Management services group,FortiGate,CREATED,SUCCESS,Service group created and verified successfully
+11;12,PA-GRP-INFRA-SERVICES,PA-SVC-DNS-UDP;PA-SVC-NTP,2,Infrastructure services group,FortiGate,CREATED,SUCCESS,Service group created and verified successfully
+13,PA-GRP-APP-SERVICES,PA-SVC-APP-RANGE,1,Application services group,FortiGate,CREATED,SUCCESS,Service group created and verified successfully

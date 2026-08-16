@@ -1,0 +1,4 @@
+line_numbers,group_name,members,member_count,description,vendor,action,status,message
+2;3;4,GRP-APP-SERVERS,APP01;APP02;DB01,3,Application server group,FortiGate,SKIPPED,WARNING,Address group already exists
+5;6,GRP-WEB-SERVERS,WEB01;WEB02,2,Web server group,FortiGate,FAILED_MISSING_MEMBERS,ERROR,Missing member objects: WEB01
+7;8,GRP-BACKUP-SERVERS,BACKUP01;BACKUP02,2,Backup server group,FortiGate,SKIPPED,WARNING,Address group already exists

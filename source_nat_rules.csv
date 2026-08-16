@@ -1,0 +1,5 @@
+policy_name,source_interface,destination_interface,source_address,destination_address,service,translated_source,log_traffic,position_type,anchor_rule,description
+FGT-SNAT-LAN-INTERNET,port2,port1,GRP-USERS,all,ALL,egress-interface,yes,bottom,,SNAT LAN users to internet using outgoing interface IP
+FGT-SNAT-DMZ-INTERNET,port3,port1,GRP-APP-SERVERS,all,ALL,POOL-DMZ-PUBLIC,yes,bottom,,SNAT DMZ servers using existing public IP pool
+PA-SNAT-TRUST-INTERNET,trust,untrust,GRP-USERS,any,any,interface-address,ethernet1/1,yes,bottom,,SNAT trust users to internet using egress interface
+PA-SNAT-DMZ-INTERNET,dmz,untrust,PA-GRP-APP-SERVERS,any,any,interface-address,ethernet1/1,yes,bottom,,SNAT DMZ servers to internet using egress interface

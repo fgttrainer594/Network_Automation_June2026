@@ -1,0 +1,13 @@
+group_name,member_name,description 
+GRP-WEB-SERVICES,SVC-HTTP,Web services group 
+GRP-WEB-SERVICES,SVC-HTTPS,Web services group 
+GRP-MGMT-SERVICES,SVC-SSH,Management services group 
+GRP-INFRA-SERVICES,SVC-DNS-UDP,Infrastructure services group 
+GRP-INFRA-SERVICES,SVC-NTP,Infrastructure services group 
+GRP-APP-SERVICES,SVC-APP-RANGE,Application services group
+PA-GRP-WEB-SERVICES,PA-SVC-HTTP,Web services group
+PA-GRP-WEB-SERVICES,PA-SVC-HTTPS,Web services group
+PA-GRP-MGMT-SERVICES,PA-SVC-SSH,Management services group
+PA-GRP-INFRA-SERVICES,PA-SVC-DNS-UDP,Infrastructure services group
+PA-GRP-INFRA-SERVICES,PA-SVC-NTP,Infrastructure services group
+PA-GRP-APP-SERVICES,PA-SVC-APP-RANGE,Application services group

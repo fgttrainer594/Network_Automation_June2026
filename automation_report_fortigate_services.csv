@@ -1,0 +1,13 @@
+line_number,service_name,protocol,destination_port,description,vendor,action,status,message
+2,SVC-HTTP,tcp,80,HTTP service,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+3,SVC-HTTPS,tcp,443,HTTPS service,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+4,SVC-SSH,tcp,22,SSH service,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+5,SVC-DNS-UDP,udp,53,DNS UDP service,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+6,SVC-NTP,udp,123,NTP service,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+7,SVC-APP-RANGE,tcp,8000-8080,Application port range,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+8,PA-SVC-HTTP,tcp,80,HTTP service,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+9,PA-SVC-HTTPS,tcp,443,HTTPS service,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+10,PA-SVC-SSH,tcp,22,SSH service,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+11,PA-SVC-DNS-UDP,udp,53,DNS UDP service,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+12,PA-SVC-NTP,udp,123,NTP service,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
+13,PA-SVC-APP-RANGE,tcp,8000-8080,Application port range,FortiGate,CREATED,SUCCESS,Service object created and verified successfully
